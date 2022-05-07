@@ -77,13 +77,18 @@ ul.active {
 }
 
 ul.active.verc {
-  width: 250px;
+  width: 100px;
   height: 100%;
   display: block;
 }
 
 ul.active.verc li {
   margin: 0px 15px 80px 15px;
+  font-size: 15px;
+}
+
+ul.active.verc li i {
+  font-size: 1.5rem;
 }
 
 ul.active li {
