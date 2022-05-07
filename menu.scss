@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    transition: 300ms all;
+}
+a{
+    color: #fff;
+  }
+html,
+body {
+    height: 100%;
+}
+
+
+.menu {
+    height: 53px;
+    width: 53px;
+    background: #83BD75;
+    position: fixed;
+    display: flex;
+
+    li {
+        color: #fff;
+        opacity: 0;
+        visibility: hidden;
+
+        &:hover {
+
+            a,
+            i {
+                color: #ff6a00;
+            }
+        }
+
+        &#selector {
+            opacity: 1;
+            visibility: visible;
+            display: block;
+
+        }
+
+        margin: 10px auto 10px 10px;
+
+        a {
+            font-size: 1.5rem;
+            margin: 0px 20px;
+            cursor: pointer;
+            color: white;
+
+            &.none {
+                visibility: hidden;
+                opacity: 0;
+                transition: 100ms all;
+            }
+        }
+
+        i {
+            font-size: 32px;
+            cursor: pointer;
+            transition: 500ms all;
+
+            &.none {
+                display: none;
+            }
+        }
+
+    }
+}
+
+ul {
+    //000000000000000000000=0
+
+    &.active {
+        width: 100%;
+        height: 53px;
+
+        &.verc {
+            width: 250px;
+            height: 100%;
+            display: block;
+
+            li {
+                margin: 0px 15px 80px 15px;
+            }
+        }
+
+        li {
+            transition: 500ms all;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+img {
+    width: 100%;
+    height: 200px;
+}
