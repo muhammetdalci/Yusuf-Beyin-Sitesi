@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Sans&display=swap");
 * {
   padding: 0px;
   margin: 0px;
+  font-family: 'Cabin', sans-serif;
   text-decoration: none;
   list-style: none;
   -webkit-transition: 300ms all;
