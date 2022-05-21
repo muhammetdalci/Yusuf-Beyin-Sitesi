@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
 
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Mulish', sans-serif;
+   
     text-decoration: none;
     list-style: none;
     transition: 300ms all;
@@ -13,19 +12,15 @@ a {
     color: #fff;
 }
 
-html,
-body {
-    height: 100%;
-}
 
 
 .menu {
     height: 53px;
-    width: 53px;
+    width: 58px;
     background: #83BD75;
     position: fixed;
     display: flex;
-
+z-index: 9999;
     li {
         color: #fff;
         opacity: 0;
@@ -79,10 +74,10 @@ ul {
 
     &.active {
         width: 100%;
-        height: 53px;
+        height: 58px;
 
         &.verc {
-            width: 100px;
+            width: 100%;
             height: 100%;
             display: block;
 

@@ -1,5 +1,8 @@
 .container-right {
-  left: 100%;
+  font-size: 13px;
+  right: 0px;
   position: absolute;
+  color: white;
+  z-index: 999999;
 }
 /*# sourceMappingURL=style.css.map */
